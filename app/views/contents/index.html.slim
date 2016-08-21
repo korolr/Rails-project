@@ -1,0 +1,25 @@
+- if @contents.blank?
+  h4 Ничего не найдено :(
+end
+
+h1 class='page_header' Listing contents
+
+table
+  thead
+    tr
+      th Title
+      th Prev
+      th Content
+      th
+      th
+      th
+
+  tbody
+    - @contents.each do |content|
+      tr
+        td = content.title
+        td = raw content.prev
+        td = link_to 'Show', content
+
+br
+
