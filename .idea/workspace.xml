@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32a9aeb3-2810-4841-94bd-e3ba4abe2100" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__blogapp.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Production__blogapp.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/spec__blogapp.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/test__blogapp.xml" />
-    </list>
+    <list default="true" id="32a9aeb3-2810-4841-94bd-e3ba4abe2100" name="Default" comment="" />
     <ignored path="blogapp.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -84,9 +79,22 @@
       <file leaf-file-name="index.html.slim" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="126">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding>
+                <marker date="1471805354559" expanded="true" signature="0:52" ph="- if @contents.blank?" />
+                <marker date="1471805354559" expanded="true" signature="24:48" ph="h4 Ничего не найдено :(" />
+                <marker date="1471805354559" expanded="true" signature="53:93" ph="h1 class='page_header' Listing contents" />
+                <marker date="1471805354559" expanded="true" signature="94:334" ph="table" />
+                <marker date="1471805354559" expanded="true" signature="102:187" ph="thead" />
+                <marker date="1471805354559" expanded="true" signature="112:187" ph="tr" />
+                <marker date="1471805354559" expanded="true" signature="121:129" ph="th Title" />
+                <marker date="1471805354559" expanded="true" signature="191:334" ph="tbody" />
+                <marker date="1471805354559" expanded="true" signature="201:334" ph="- @contents.each do |content|" />
+                <marker date="1471805354559" expanded="true" signature="237:334" ph="tr" />
+                <marker date="1471805354559" expanded="true" signature="248:266" ph="td = content.title" />
+                <marker date="1471805354559" expanded="true" signature="335:339" ph="br" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,7 +130,7 @@
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="59" column="14" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="21" />
+              <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -620,12 +628,12 @@
       <updated>1471723368526</updated>
       <workItem from="1471723370819" duration="58000" />
       <workItem from="1471725439058" duration="3245000" />
-      <workItem from="1471785642521" duration="3376000" />
+      <workItem from="1471785642521" duration="3831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6679000" />
+    <option name="totallyTimeSpent" value="7134000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -691,7 +699,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1471805354559" expanded="true" signature="0:52" ph="- if @contents.blank?" />
+            <marker date="1471805354559" expanded="true" signature="24:48" ph="h4 Ничего не найдено :(" />
+            <marker date="1471805354559" expanded="true" signature="53:93" ph="h1 class='page_header' Listing contents" />
+            <marker date="1471805354559" expanded="true" signature="94:334" ph="table" />
+            <marker date="1471805354559" expanded="true" signature="102:187" ph="thead" />
+            <marker date="1471805354559" expanded="true" signature="112:187" ph="tr" />
+            <marker date="1471805354559" expanded="true" signature="121:129" ph="th Title" />
+            <marker date="1471805354559" expanded="true" signature="191:334" ph="tbody" />
+            <marker date="1471805354559" expanded="true" signature="201:334" ph="- @contents.each do |content|" />
+            <marker date="1471805354559" expanded="true" signature="237:334" ph="tr" />
+            <marker date="1471805354559" expanded="true" signature="248:266" ph="td = content.title" />
+            <marker date="1471805354559" expanded="true" signature="335:339" ph="br" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -880,7 +901,7 @@
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="59" column="14" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="21" />
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -937,9 +958,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="126">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <marker date="1471805354559" expanded="true" signature="0:52" ph="- if @contents.blank?" />
+            <marker date="1471805354559" expanded="true" signature="24:48" ph="h4 Ничего не найдено :(" />
+            <marker date="1471805354559" expanded="true" signature="53:93" ph="h1 class='page_header' Listing contents" />
+            <marker date="1471805354559" expanded="true" signature="94:334" ph="table" />
+            <marker date="1471805354559" expanded="true" signature="102:187" ph="thead" />
+            <marker date="1471805354559" expanded="true" signature="112:187" ph="tr" />
+            <marker date="1471805354559" expanded="true" signature="121:129" ph="th Title" />
+            <marker date="1471805354559" expanded="true" signature="191:334" ph="tbody" />
+            <marker date="1471805354559" expanded="true" signature="201:334" ph="- @contents.each do |content|" />
+            <marker date="1471805354559" expanded="true" signature="237:334" ph="tr" />
+            <marker date="1471805354559" expanded="true" signature="248:266" ph="td = content.title" />
+            <marker date="1471805354559" expanded="true" signature="335:339" ph="br" />
+          </folding>
         </state>
       </provider>
     </entry>
